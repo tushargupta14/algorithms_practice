@@ -5,6 +5,7 @@ class Solution:
         self.xor_sum = 0 
 
         def create_subsets(nums, i, xor_so_far, seen, idx_arr):
+            # not required
             if i >= len(nums):
                 self.xor_sum += xor_so_far
                 seen.add(idx_arr)
